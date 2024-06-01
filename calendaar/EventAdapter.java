@@ -5,7 +5,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListAdapter;
 
+import java.util.ArrayList;
+
 public class EventAdapter implements ListAdapter {
+    public EventAdapter(ArrayList<Event> dailyEvents) {
+    }
+
     @Override
     public boolean areAllItemsEnabled() {
         return false;

@@ -8,6 +8,8 @@ public class Event
 {
     public static ArrayList<Event> eventsList = new ArrayList<>();
 
+    //array list na vytvoreni a pridani eventu
+
     public static ArrayList<Event> eventsForDate(LocalDate date, LocalTime time)
     {
         ArrayList<Event> events = new ArrayList<>();

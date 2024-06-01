@@ -31,15 +31,15 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
 
 
     public class FirstFragment extends Fragment {
-        // Obsah první stránky
+        // first page
     }
 
     public class SecondFragment extends Fragment {
-        // Obsah druhé stránky
+        // second page
     }
 
     public class ThirdFragment extends Fragment {
-        // Obsah třetí stránky
+        // third page
     }
 
 
